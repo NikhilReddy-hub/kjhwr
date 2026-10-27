@@ -1,0 +1,22 @@
+# Backend
+backend/data/*.db-shm
+backend/data/*.db-wal
+!backend/data/wind_data.db
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/*.egg-info/
+backend/venv/
+backend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# General
+.DS_Store
+*.log
+*.pyc
+.env
